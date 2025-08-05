@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Hafez",
+    "slug": "Hafez",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/hafez-logo.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/hafez-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ztsmhmd.Hafez",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/hafez-logo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.ztsmhmd.Hafez"
+    },
+    "web": {
+      "favicon": "./assets/images/hafez-logo.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "scheme": "natively",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {}
+    }
+  }
+}
