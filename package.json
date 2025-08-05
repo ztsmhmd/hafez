@@ -10,7 +10,7 @@
     "build:web": "expo export -p web && npx workbox generateSW workbox-config.js",
     "build:android": "expo prebuild -p android",
     "lint": "eslint .",
-    "build-android": "eas build -p android --local && adb install dist/*.apk"
+    "build-android": "npx eas build -p android --profile preview && adb install dist/*.apk"
   },
   "dependencies": {
     "@babel/runtime": "^7.26.9",
